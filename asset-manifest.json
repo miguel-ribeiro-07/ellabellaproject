@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ellabellaproject/static/css/main.97c9b156.chunk.css",
+    "main.css": "/ellabellaproject/static/css/main.5ad59864.chunk.css",
     "main.js": "/ellabellaproject/static/js/main.1f08e1f5.chunk.js",
     "main.js.map": "/ellabellaproject/static/js/main.1f08e1f5.chunk.js.map",
     "runtime-main.js": "/ellabellaproject/static/js/runtime-main.0ab8452a.js",
@@ -8,7 +8,7 @@
     "static/js/2.a01523d1.chunk.js": "/ellabellaproject/static/js/2.a01523d1.chunk.js",
     "static/js/2.a01523d1.chunk.js.map": "/ellabellaproject/static/js/2.a01523d1.chunk.js.map",
     "index.html": "/ellabellaproject/index.html",
-    "static/css/main.97c9b156.chunk.css.map": "/ellabellaproject/static/css/main.97c9b156.chunk.css.map",
+    "static/css/main.5ad59864.chunk.css.map": "/ellabellaproject/static/css/main.5ad59864.chunk.css.map",
     "static/js/2.a01523d1.chunk.js.LICENSE.txt": "/ellabellaproject/static/js/2.a01523d1.chunk.js.LICENSE.txt",
     "static/media/ellabella.cfe04998.png": "/ellabellaproject/static/media/ellabella.cfe04998.png",
     "static/media/logotipo.c51225f8.png": "/ellabellaproject/static/media/logotipo.c51225f8.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.0ab8452a.js",
     "static/js/2.a01523d1.chunk.js",
-    "static/css/main.97c9b156.chunk.css",
+    "static/css/main.5ad59864.chunk.css",
     "static/js/main.1f08e1f5.chunk.js"
   ]
 }
