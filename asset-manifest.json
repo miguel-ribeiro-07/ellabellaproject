@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ellabellaproject/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/ellabellaproject/static/js/main.c6b93ae1.chunk.js",
+    "main.js.map": "/ellabellaproject/static/js/main.c6b93ae1.chunk.js.map",
+    "runtime-main.js": "/ellabellaproject/static/js/runtime-main.a6133f83.js",
+    "runtime-main.js.map": "/ellabellaproject/static/js/runtime-main.a6133f83.js.map",
+    "static/js/2.d1581720.chunk.js": "/ellabellaproject/static/js/2.d1581720.chunk.js",
+    "static/js/2.d1581720.chunk.js.map": "/ellabellaproject/static/js/2.d1581720.chunk.js.map",
+    "static/js/3.769bcebc.chunk.js": "/ellabellaproject/static/js/3.769bcebc.chunk.js",
+    "static/js/3.769bcebc.chunk.js.map": "/ellabellaproject/static/js/3.769bcebc.chunk.js.map",
+    "index.html": "/ellabellaproject/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/ellabellaproject/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.d1581720.chunk.js.LICENSE.txt": "/ellabellaproject/static/js/2.d1581720.chunk.js.LICENSE.txt",
+    "static/media/ellabella.cfe04998.png": "/ellabellaproject/static/media/ellabella.cfe04998.png",
+    "static/media/logotipo.c51225f8.png": "/ellabellaproject/static/media/logotipo.c51225f8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6133f83.js",
+    "static/js/2.d1581720.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.c6b93ae1.chunk.js"
+  ]
+}
