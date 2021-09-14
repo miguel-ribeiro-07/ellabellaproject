@@ -8,7 +8,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Homepage from './routed/Homepage'
 import ConsultaCliente from './routed/ConsultaCliente'
-import CadastroCliente from './routed/CadastroCliente'
+import CadastroCliente from './routed/Contato'
 import Caixa from './routed/Caixa'
 import Agenda from './routed/Agenda'
 

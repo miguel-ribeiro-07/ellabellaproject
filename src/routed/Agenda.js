@@ -13,7 +13,11 @@ import {
 import appointments  from './data/CompromissoHoje';
 
 const useStyles = makeStyles(theme => ({
-    btn1: {
+      btn0: {
+        position:'absolute',
+        right: '450px'
+      },
+      btn1: {
         position:'absolute',
         right: '290px'
       },
@@ -40,6 +44,10 @@ export default function Agenda() {
                 </Scheduler>
             </Paper>
             <Toolbar>
+                <Button color="secondary" className={classes.btn0} variant="contained" size="large" 
+                onClick={() => history.push('/consulta')}>
+                Consulta Cliente
+                </Button>
                 <Button color="secondary" className={classes.btn1} variant="contained" size="large" 
                 onClick={() => history.push('/cadastro')}>
                 Novo Cliente

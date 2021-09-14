@@ -24,6 +24,10 @@ const useStyles = makeStyles(theme => ({
       color: "white"
     }
   },
+  btn0: {
+    position:'absolute',
+    right: '450px'
+  },
   btn1: {
     position:'absolute',
     right: '290px'
@@ -196,6 +200,10 @@ export default function ClientesList() {
         <h2 align="center" className={classes.tit1}>Histórico do cliente</h2>
         <DataGrid className={classes.dataGrid} rows={hist} columns={columnshist} pageSize={10} autoHeight={true} disableSelectionOnClick={true} />
         <Toolbar>
+        <Button color="secondary" className={classes.btn0} variant="contained" size="large" 
+          onClick={() => history.push('/consulta')}>
+          Consulta Cliente
+        </Button>
         <Button color="secondary" className={classes.btn1} variant="contained" size="large" 
           onClick={() => history.push('/cadastro')}>
           Novo Cliente

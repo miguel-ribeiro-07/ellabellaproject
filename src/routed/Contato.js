@@ -26,6 +26,10 @@ const useStyles = makeStyles(theme => ({
     justifyContent: 'space-around',
     marginTop: '36px'
   },
+  btn0: {
+    position:'absolute',
+    right: '450px'
+  },
   btn1: {
     position:'absolute',
     right: '290px'
@@ -37,6 +41,10 @@ const useStyles = makeStyles(theme => ({
   btn3: {
     position:'absolute',
     right: '5px'
+  },
+  btn4: {
+    position:'absolute',
+    left: '5px'
   }
 }))
 
@@ -145,6 +153,15 @@ export default function ClientesForm() {
         />
 
         <TextField 
+          id="cep" 
+          label="CEP" 
+          variant="outlined"
+          required  /* not null, precisa ser preenchido */
+          placeholder="Informe o CEP"
+          fullWidth
+        />
+
+        <TextField 
           id="municipio" 
           label="Municipio" 
           variant="outlined"
@@ -205,19 +222,23 @@ export default function ClientesForm() {
         </TextField>
 
         <Toolbar className={classes.toolbar}>
-          <Button type="submit" variant="contained" color="secondary">
+          <Button type="submit" className={classes.btn4} variant="contained" color="secondary">
             Salvar
           </Button>
+          <Button color="secondary" className={classes.btn0} variant="contained" size="large" 
+            onClick={() => history.push('/consulta')}>
+            Consulta Cliente
+          </Button>
           <Button color="secondary" className={classes.btn1} variant="contained" size="large" 
-          onClick={() => history.push('/cadastro')}>
-          Novo Cliente
-        </Button>
-        <Button color="secondary" className={classes.btn2} variant="contained" size="large" 
-          onClick={() => history.push('/agenda')}>
-          Agendar Cliente
-        </Button>
-        <Button color="secondary" className={classes.btn3} variant="contained" size="large" 
-          onClick={() => history.push('/caixa')}>
+            onClick={() => history.push('/cadastro')}>
+            Novo Cliente
+          </Button>
+          <Button color="secondary" className={classes.btn2} variant="contained" size="large" 
+            onClick={() => history.push('/agenda')}>
+            Agendar Cliente
+          </Button>
+          <Button color="secondary" className={classes.btn3} variant="contained" size="large" 
+            onClick={() => history.push('/caixa')}>
           Caixa
         </Button>
         </Toolbar>

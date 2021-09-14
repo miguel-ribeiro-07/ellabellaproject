@@ -3,14 +3,10 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Toolbar from '@material-ui/core/Toolbar'
 import Button from '@material-ui/core/Button'
-import AddBoxIcon from '@material-ui/icons/AddBox';
 import { useHistory } from 'react-router-dom'
 import { DataGrid } from '@material-ui/data-grid'
 
 const useStyles = makeStyles(theme => ({
-  table: {
-    minWidth: 650,
-  },
   dataGrid: {
     '& .MuiDataGrid-row button': {
       visibility: 'hidden'
@@ -29,7 +25,12 @@ const useStyles = makeStyles(theme => ({
     '& .super-app-theme--header2': {
       backgroundColor: 'black' ,
       color: "white"
-    }
+    },
+    maxHeight:160
+  },
+  btn0: {
+    position:'absolute',
+    right: '450px'
   },
   btn1: {
     position:'absolute',
@@ -218,6 +219,10 @@ export default function ClientesList() {
         <h2 align="center">Balanço geral</h2>
         <DataGrid className={classes.dataGrid} rows={saldo} columns={columns_saldo} pageSize={10} autoHeight={true} disableSelectionOnClick={true} />
         <Toolbar>
+        <Button color="secondary" className={classes.btn0} variant="contained" size="large" 
+        onClick={() => history.push('/consulta')}>
+        Consulta Cliente
+        </Button>
         <Button color="secondary" className={classes.btn1} variant="contained" size="large" 
           onClick={() => history.push('/cadastro')}>
           Novo Cliente

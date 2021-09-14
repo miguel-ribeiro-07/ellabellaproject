@@ -5,6 +5,10 @@ import { useHistory } from 'react-router-dom'
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(theme => ({
+    btn0: {
+      position:'absolute',
+      left: '450px'
+    },
     btn1: {
         position:'absolute',
         left: '290px'
@@ -25,6 +29,10 @@ export default function Home() {
         <div>
         <h1>Homepage</h1>
             <Toolbar>
+                <Button color="secondary" className={classes.btn0} variant="contained" size="large" 
+                onClick={() => history.push('/consulta')}>
+                Consulta Cliente
+                </Button>
                 <Button color="secondary" className={classes.btn1} variant="contained" size="large" 
                 onClick={() => history.push('/cadastro')}>
                 Novo Cliente
